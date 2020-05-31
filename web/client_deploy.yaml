@@ -21,7 +21,7 @@ spec:
         app: client
     spec:
       containers:
-      - image: pitchapuay/client:v2
+      - image: pitchapuay/client:v3
         imagePullPolicy: Always
         name: client
       dnsPolicy: ClusterFirst
