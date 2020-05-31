@@ -21,7 +21,7 @@ spec:
         app: backend
     spec:
       containers:
-      - image: pitchapuay/backend
+      - image: pitchapuay/backend:v2
         imagePullPolicy: Always
         name: backend
       dnsPolicy: ClusterFirst
