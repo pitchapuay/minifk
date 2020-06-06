@@ -110,7 +110,11 @@ items:
         containers:
         - args:
           - --ssh-keygen-dir=/var/fluxd/keygen
+<<<<<<< HEAD
           - --git-url=https://github.com/pitchapuay/minifk.git
+=======
+          - --git-url=https://github.com/chanwit/minifk
+>>>>>>> 3b980637a6d2447c21e9ba13b0d6a26bd5fa687f
           - --git-branch=master
           - --git-poll-interval=30s
           - --git-path=.
